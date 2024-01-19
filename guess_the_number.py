@@ -1,6 +1,6 @@
-import random
+from random import randint
 
-random_number = random.randint(1, 100)
+random_number = randint(1, 100)
 attempts = 0
 max_attempts = 10
 
